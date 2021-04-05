@@ -1,0 +1,17 @@
+.black_banner_title{
+    margin-top: 135px;
+    background-color: #222;
+    color: #f9f9f9;
+}
+
+.black_banner_title > h2{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 38px;
+    line-height: 44px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

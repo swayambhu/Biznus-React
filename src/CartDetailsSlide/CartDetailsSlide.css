@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+.cart_item_wrapper{
+    box-sizing: border-box;
+    z-index: 2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.cart_detail_top_bar{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 2px solid #ccc;
+    min-height: 60px;
+}
+
+.cart_detail_top_bar > h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.cart_detail_top_bar > i{
+    font-size: 24px;
+    font-weight: 700; 
+    cursor: pointer;   
+}
+
+.cart_detail_top_bar > i:hover{
+    color: #dd0808;
+    transform: scale(1.5,1.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.items_container{
+    min-height: calc( 100% - 190px );
+    padding: 10px 0px;
+}
+
+.each_item_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.item_and_count_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name_and_price_wrapper > h3{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.name_and_price_wrapper > p{
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.img_and_detail_wrapper{
+    display: flex;
+    margin-right: 40px;
+}
+
+.img_and_detail_wrapper > img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.each_item_count{
+    border: 2px solid #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.remove_item_btn{
+    background-color: #EB5757;
+    color: rgb(245, 243, 243);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove_item_btn:hover{
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+.checkout_content_wrapper{
+    box-sizing: border-box;
+    border-top: 1px solid #222;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    height: 120px;
+}
+
+.subtotal_price_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal_price_wrapper > p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.checkout_btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #EB5757;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.checkout_btn:hover{
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+.no_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

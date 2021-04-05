@@ -1,0 +1,31 @@
+.owner_card_wrapper{
+    width: 40%;
+    text-align: center;
+}
+
+.owner_card_wrapper > img {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.owner_card_wrapper > h2{
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+.owner_card_wrapper > p{
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}

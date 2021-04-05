@@ -1,0 +1,26 @@
+.annoucement_banner{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.announcement_title{
+    color: #fff;
+    background-color: #EB5757;
+    width: max-content;
+    padding: 5px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.announcement_detail{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+}

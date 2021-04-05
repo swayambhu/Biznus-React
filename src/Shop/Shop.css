@@ -1,0 +1,121 @@
+.feature_item_wrapper{
+    position: relative;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.shop_feature_image{
+    width: 100%;
+    min-height: 250px;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.22), rgba(34, 34, 34, 0.69)), url("../assets//shop_feature_image.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.feature_item_detail_wrapper{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: #fff;
+}
+
+.feature_item_detail_wrapper > h3{
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.feature_item_detail_wrapper > p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.feature_item_btn{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    padding: 6px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.products_section{
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.prod_section_left{
+    width: 20%;
+}
+
+.products_container{
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prod_section_left{
+    text-align: left;
+}
+
+.prod_section_left > h2{
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.category_list{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.filter_btn{
+    width: 75%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.filter_btn:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+.selected_filter_btn{
+    width: 75%;
+    border: 2px solid #EB5757;
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #EB5757;
+    color: #fff;
+}

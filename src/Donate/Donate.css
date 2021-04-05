@@ -1,0 +1,49 @@
+.donation_landing_content_wrapper{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.donate_title{
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+.donate_subtitle{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.donate_description{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.6px;
+    line-height: 1.5;
+}
+
+.btns_container_wrapper{
+    min-height: calc(100vh - 135px);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns_container{
+    border: 2px solid #222222;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 20px;
+    border-radius: 5px;
+}

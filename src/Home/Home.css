@@ -1,0 +1,221 @@
+.home_landing_title{
+    font-size: 60px;
+    font-weight: 700;
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.home_landing_description{
+    max-width: 350px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0;
+    padding: 0;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+
+.home_landing_btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.home_landing_btn:hover{
+    border-color: #EB5757;
+    background-color: #EB5757;
+}
+
+.support_top_detail_wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.support_top_detail_wrapper > div{
+    width: 45%;
+}
+
+.support_top_detail_left_wrapper > p{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.support_top_detail_left_wrapper > h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #333;
+}
+
+.support_top_detail_right_wrapper{
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.support_cards_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.safe_section_wrapper{
+    display: flex;
+    min-height: 550px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home_safe_title{
+    width: 45%;
+    color: #f9f9f9;
+    font-size: 45px;
+    line-height: 1.2;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.home_safe_description{
+    width: 35%;
+    margin-bottom: 25px;
+    color: #f9f9f9;
+    font-size: 18px;
+    text-align: right;
+}
+
+.home_product_title{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home_product_title > p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.home_product_title > h2{
+    margin: 10px 0;
+    padding: 0;
+    font-size: 35px;
+}
+
+.home_product_card_holder{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.view_all_btn{
+    display: block;
+    margin: 60px 0;
+    text-decoration: none;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 7px 25px;
+    border-radius: 5px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.shop_local_container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 500px;
+    -webkit-box-pack: end;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 60px;
+}
+
+.shop_local_img{
+    position: absolute;
+    left: 0%;
+    top: 6%;
+    right: auto;
+    bottom: 0%;
+    width: 30%;
+    height: 0px;
+    min-height: 440px;
+    border-radius: 5px;
+    background-image: url("../assets/shop_local_img.jpg");
+    background-position: 69% 80%;
+    background-size: 270%;
+}
+
+.shop_local_description{
+    box-sizing: border-box;
+    display: flex;
+    width: 80%;
+    padding: 45px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    border-radius: 5px;
+    background-color: #222;
+    color: #f9f9f9;
+}
+
+.shop_local_desc_inner_wrapper{
+    box-sizing: border-box;
+    width: 80%;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+
+.shop_local_desc_inner_wrapper > h2{
+    margin-top: 0px;
+    font-size: 45px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.shop_local_desc_inner_wrapper > p{
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    text-align: justify;
+    line-height: 1.2;
+}

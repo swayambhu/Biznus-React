@@ -1,0 +1,10 @@
+.landing_wrapper{
+    box-sizing: border-box;
+    /* margin-top: 135px; */
+    height: calc(100vh - 135px);
+    /* background: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url("../assets/home_landing_picture.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover; */
+    color: #fff;
+    z-index: 0;
+}

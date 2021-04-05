@@ -1,0 +1,137 @@
+.about_title{
+    font-size: 60px;
+    font-weight: 700;
+    max-width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.about_description{
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 0;
+    padding: 0;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.about_landing_btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container_wrapper{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature_detail_wrapper{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature_detail_wrapper > div{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.feature_detail_wrapper > h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.feature_detail_wrapper > p{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.meet_owners_wrapper{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meet_owner_image_wrapper{
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    right: auto;
+    bottom: 0%;
+    width: 45%;
+    height: 90%;
+    border-radius: 5px;
+    background: url("../assets/meet_the_owner_image.jpg");
+    background-position: 50% 100%;
+    background-size: cover;
+}
+
+.meet_the_owner_detail_wrapper{
+    width: 45%;
+    padding: 90px 55px 90px 245px;
+    border-radius: 5px;
+    background-color: #222;
+    color: #f9f9f9;
+}
+
+.meet_the_owner_detail_wrapper > h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+.meet_the_owner_detail_wrapper > p{
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.owner_profiles_wrapper{
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+.about_footer_description{
+    max-width: 420px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 0;
+    padding: 0;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}

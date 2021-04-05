@@ -1,0 +1,43 @@
+.footer_wrapper{
+    padding-top: 65px;
+    padding-bottom: 10px;
+    background-color: #222;
+}
+
+.footer_container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo_wrapper{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer_logo_wrapper > img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.trademark_wrap{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.author_sign{
+    color: #EB5757;
+}
